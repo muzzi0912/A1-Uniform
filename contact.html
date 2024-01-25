@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="e.style.css">
+    <link href="./lib/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/document.png">
+    <title>A-1 UNIFORMS</title>
+    <style>
+.details a{
+    color: black;
+    text-decoration: none;
+}
+        .menu-btn, .close-btn{
+            height: 30px;
+            width: 30px;
+            background: #f6f6f6;
+            color: #111;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+
+        }
+        .close-btn, .menu-btn{
+            display: none;
+        }
+        @media (max-width: 991px){
+            .list-mob{
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: #fff;
+                z-index: 999999;
+                transition: 300ms linear;
+            }
+            .list-mob li {
+                margin: 10px 0px;
+            }
+            .menu-btn{
+                display: inline-flex;
+            }
+            .navOpened{
+                right: 0 !important;
+                transition: 300ms linear;
+            }
+            .close-btn{
+                display: inline-flex;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+
+
+    <section id="header">
+        <a href="index.html"><img src="uniform images/muzammil logo.png" style="width: 100px;height: 50px;"></a>
+        <div>
+        <ul id="navbar" class="list-mob"> 
+            <a href="#" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+       <a href="cart.html">  <i class="fa fa-shopping-bag"></i></a>
+    </div>
+        <a href="#" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
+    </section>
+
+    <section id="page-header" class="about-header">
+
+        <h2>#Let's Talk</h2>
+
+
+        <p> LEAVE A MESSAGE, We Love To Hear From You!</p>
+
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2> Visit one of our agency location or contact us today</h2>   
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fas fa-map"></i>
+                    <p>Block 13 Rabia City Road, Main Guhlasatan-e-Johar, Karachi, Pakistan</p>
+                </li>
+                <li>
+                   
+                    <i class="far fa-envelope"> <a href="mailto:muzammiludiin577@gmail.com"></i>
+                    <p>muzammiludiin577@gmail.com</p></a>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>03327297413</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p> 10:00 - 10:00pm, Mon - Sat</p>
+                </li>
+            </div>
+        </div>     
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7237.216582253129!2d67.12825657178533!3d24.911339516780956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338fd7ee49835%3A0xd4db4f65684adf47!2sBlock%2013%20Gulistan-e-Johar%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1644224172911!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    </section>
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2> Visit one of our agency location or contact us today</h2>   
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fas fa-map"></i>
+                    <p>North Nazimabad Near Block L </p>
+                </li>
+                <li>
+                   
+                    <i class="far fa-envelope"> <a href="mailto:muzammiludiin577@gmail.com"></i>
+                    <p>muzammiludiin577@gmail.com</p></a>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>03327297413</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p> 10:00 - 10:00pm, Mon - Sat</p>
+                </li>
+            </div>
+        </div>     
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.944633333856!2d67.01510139966382!3d24.915267149491076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fbd469d9bcd%3A0x749325c6e39952f3!2sNazimabad%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1646308176350!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+        </div>
+        
+    </section>
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2> Visit one of our agency location or contact us today</h2>   
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fas fa-map"></i>
+                    <p>Defence Phase 4 </p>
+                </li>
+                <li>
+                   
+                    <i class="far fa-envelope"> <a href="mailto:muzammiludiin577@gmail.com"></i>
+                    <p>muzammiludiin577@gmail.com</p></a>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>03327297413</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p> 10:00 - 10:00pm, Mon - Sat</p>
+                </li>
+            </div>
+        </div>     
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115901.118184335!2d66.99774576122176!3d24.798537088775667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33cf02eda6f15%3A0x937892677f0377a2!2sDefence%20Housing%20Authority%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075500%2C%20Pakistan!5e0!3m2!1sen!2s!4v1646308028285!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    </section>
+    <section id="form-details">
+        <form >
+            <span>LEAVE A MESSAGE</span>
+            <h2>We Love To Hear Form You</h2>
+            <input type="text"  required placeholder=" Your Name" id="uname" pattern="[a-zA-Z]{3,20}"/> 
+            <input type="text"  required placeholder="E-mail"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> 
+            <input type="text" required placeholder=" Subject" pattern="[a-zA-Z0-9]{5,50}">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea> 
+            <!-- <button class="normal">Submit</button> -->
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="images/people/1.png" alt="">
+                <p><span>John Doe</span> Senior Marketing Manager <br>Phone:000 777 66 <br>
+                Email:john@gmail.com</p>
+            </div>
+
+            <div>
+                <img src="images/people/2.png" alt="">
+                <p><span>Rao Hennry</span> Senior Marketing Manager <br>Phone:000 555 77 <br>
+                Email:rao@gmail.com</p>
+            </div>
+
+            <div>
+                <img src="images/people/3.png" alt="">
+                <p><span>Leblanc</span> Senior Marketing Manager <br>Phone:000 999 22 <br>
+                Email:leblanc@gmail.com</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <h1>My First Google Map</h1>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <script>
+
+        let locations = {};
+
+        navigator.geolocation.getCurrentPosition((position) => {
+            const p = position.coords;
+            locations = { lat: p.latitude, lng: p.longitude }
+
+            // The map, centered at locations
+            const map = new google.maps.Map(document.getElementById("googleMap"), {
+                zoom: 12,
+                center: locations,
+            });
+            // The marker, positioned at locations
+            const marker = new google.maps.Marker({
+                position: locations,
+                map: map,
+            });
+        })
+    </script>
+
+
+</body>
+
+</html>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeSUCqsn_suPSv70touWTATyEP_f3eZdY"></script>
+
+   
+    <section id="newsletter" class="section-p1 section-m1"> 
+        <div>
+        <h4>Sing Up For Newsletters</h4>
+        <p>Get E-mail Updates about our latest shop and <span>special offer</span>.
+        </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section> 
+  
+
+      
+
+   
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="uniform images/muzammil logo.png"  style="width: 100px;height: 50px;"alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> North nazimabad block-L</p>
+            <p><strong>Phone: </strong> 021-3456874 / 03385412369</p>
+            <p><strong>Hours: </strong> 10:00 - 10:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+
+        <div class="col">
+            <h4>My Accounts</h4>
+            <a href="#">Sing In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2022 By A-1 Uniform All Rights Reserved</p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+<script>
+
+function check(){
+
+var uname_regax = "/^[a-zA-Z]{3,20}$/";
+
+var uname=document.getElementById('uname').value;
+if(uname_regax.test(uname)){
+    document.getElementById('uname').style.border="2px solid green";
+}
+else{
+    document.getElementById('uname').style.border="2px solid red";
+
+}
+
+}
+
+</script>

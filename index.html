@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   
+    <link rel="stylesheet" href="e.style.css">
+<!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'> -->
+  <link href="./lib/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="images/document.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A-1 UNIFORMS </title>
+    <style>
+
+        .menu-btn, .close-btn{
+            height: 30px;
+            width: 30px;
+            background: #f6f6f6;
+            color: #111;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+
+        }
+        .close-btn, .menu-btn{
+            display: none;
+        }
+        @media (max-width: 991px){
+            .list-mob{
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: #fff;
+                z-index: 999999;
+                transition: 300ms linear;
+            }
+            .list-mob li {
+                margin: 10px 0px;
+            }
+            .menu-btn{
+                display: inline-flex;
+            }
+            .navOpened{
+                right: 0 !important;
+                transition: 300ms linear;
+            }
+            .close-btn{
+                display: inline-flex;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>     
+    <!-- NAVBAR -->
+ 
+ 
+    <section id="header">
+        <a href="index.html"><img src="uniform images/muzammil logo.png" style="width: 100px;height: 50px;"></a>
+        <div>
+        <ul id="navbar" class="list-mob"> 
+            <a href="#" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+       <a href="cart.html">  <i class="fa fa-shopping-bag"></i></a>
+    </div>
+        <a href="#" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
+    </section>
+
+    <section id="hero">
+        <h4><b>Ａ－１ ＵＮＩＦＯＲＭＳ ＰＲＯＶＩＤＥ</b></h4>
+        <h3>𝓢𝓾𝓹𝓮𝓻 𝓥𝓪𝓵𝓾𝓮 𝓓𝓮𝓪𝓵𝓼</h3>
+        <h2>𝕆𝕟 𝔸𝕝𝕝 ℙ𝕣𝕠𝕕𝕦𝕔𝕥𝕤</h2>
+         <p><b>𝓢𝓪𝓿𝓮 𝓶𝓸𝓻𝓮 𝔀𝓲𝓽𝓱 𝓬𝓸𝓾𝓹𝓸𝓷𝓼  &  𝓤𝓹  𝓣𝓸  65% 𝓞𝓯𝓯!</b> </p>
+         <button>𝓢𝓱𝓸𝓹 𝓝𝓸𝔀</button>
+    </section>
+
+
+     <!-- slider -->
+
+<!-- 
+     <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+           <div id="overflow">
+              <div class="inner">
+                 <div class="slide slide_1">
+                    <div class="slide-content">
+                       <h2>Slide 1</h2>
+                       <p>Content for Slide 1</p>
+                    </div>
+                 </div>
+                 <div class="slide slide_2">
+                    <div class="slide-content">
+                       <h2>Slide 2</h2>
+                       <p>Content for Slide 2</p>
+                    </div>
+                 </div>
+                 <div class="slide slide_3">
+                    <div class="slide-content">
+                       <h2>Slide 3</h2>
+                       <p>Content for Slide 3</p>
+                    </div>
+                 </div>
+                 <div class="slide slide_4">
+                    <div class="slide-content">
+                       <h2>Slide 4</h2>
+                       <p>Content for Slide 4</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div id="controls">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+           <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+           <label for="slide4"></label>
+        </div>
+     </div> -->
+<!-- 
+     slider end -->
+    <section id="feature" class="section-p1">
+        <div class="fe-box"> 
+            <img src="images/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+
+        </div>
+
+        <div class="fe-box"> 
+            <img src="images/features/f2.png" alt="">
+            <h6>Online Order</h6>
+
+        </div>
+
+        <div class="fe-box"> 
+            <img src="images/features/f3.png" alt="">
+            <h6>Sav Money</h6>
+
+        </div>
+
+        <div class="fe-box"> 
+            <img src="images/features/f4.png" alt="">
+            <h6>Promotions</h6>
+
+        </div>
+
+        <div class="fe-box"> 
+            <img src="images/features/f5.png" alt="">
+            <h6>Happy Sale</h6>
+
+        </div>
+
+        <div class="fe-box"> 
+            <img src="images/features/f6.png" alt="">
+            <h6>Support</h6>
+
+        </div>
+
+    </section>
+     
+    <section id="products1" class="section-p1" >
+        <h2>Featured Products</h2>
+        <p> Kids Winter Uniform Collection </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="uniform images/new1-removebg-preview.png" alt="" style="height: 300px;">
+                <div class="des">
+                    <span>A-1 Uniform</span>
+                    <h5>School Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+            </div>
+    
+                <div class="pro">
+                    <img src="uniform images/boys-2.new.jpg" alt="" style="height: 300px;">
+                    <div class="des">
+                        <span>A-1 Uniform</span>
+                        <h5>School Uniform</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                          <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                </div>
+                    <div class="pro">
+                        <img src="uniform images/b-3.jpg"  style="height: 300px;"alt="">
+                        <div class="des">
+                            <span>A-1 Uniform</span>
+                            <h5>School Uniform</h5>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                              <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                    </div>
+
+            <div class="pro">
+                <img src="uniform images/b-4s.jpg" style="height: 300px;">
+                <div class="des">
+                    <span>A-1 Uniform</span>
+                    <h5>School Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+            </div>
+                <div class="pro">
+                    <img src="uniform images/g.new1-removebg-preview.png" style="height: 300px;"alt="">
+                    <div class="des">
+                        <span>A-1 Uniform</span>
+                        <h5> Girl's School Uniform</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                          <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                </div>
+                    <div class="pro">
+                        <img src="uniform images/g-3.jpg" style="height: 300px;" alt="">
+                        <div class="des">
+                            <span>A-1 Uniform</span>
+                            <h5> Girl's School Uniform</h5>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                              <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                    </div>
+                    
+                        <div class="pro">
+                            <img src="uniform images/g-2-removebg-preview.png" alt="" style="height: 300px; object-fit: cover;" >
+                            <div class="des">
+                                <span>A-1 Uniform</span>
+                                <h5> Girl's School Uniform</h5>
+                                <div class="star">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                  <h4>$78</h4>
+                            </div>
+                            <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                        </div>
+                        
+                            <div class="pro">
+                                <img src="uniform images/g-4-removebg-preview.png" style="height: 300px;" alt="">
+                                <div class="des">
+                                    <span>A-1 Uniform</span>
+                                    <h5> Girl's School Uniform</h5>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                      <h4>$78</h4>
+                                </div>
+                                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                            </div>
+                                </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>WE ARE GIVING SOME DISCOUNT'S</h4>
+        <h2>Up to <span> 70% off</span> - All T-Shirts & Accessories</h2>
+        <p style="color: #f6f6f6;">You can download our Price list and details</p><br>
+        <a href="List of Unifroms.docx">
+        <button class="normal"> Download now</button></a>
+    </section>
+
+
+
+
+    <section id="products1" class="section-p1" >
+        <h2>New Arrivals</h2>
+        <p> Kids Summer Collection </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="uniform images/girls-school-uniform-skirts 1.jpg" alt="">
+                <div class="des">
+                    <span>A-1 Uniform</span>
+                    <h5> Girl's School Frock's Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+            </div>
+    
+                <div class="pro">
+                    <img src="uniform images/school-skirts 2.jpg" alt="">
+                    <div class="des">
+                        <span>A-1 Uniform</span>
+                        <h5>Girl's School Frock's Uniform</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                          <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                </div>
+                    <div class="pro">
+                        <img src="uniform images/new3frock.jpg" alt="">
+                        <div class="des">
+                            <span>A-1 Uniform</span>
+                            <h5>Girl's School Frock's Uniform</h5>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                              <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                    </div>
+
+            <div class="pro">
+                <img src="uniform images/school froks 2.jpg" alt="">
+                <div class="des">
+                    <span>A-1 Uniform</span>
+                    <h5>Girl's School Frock's Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+            </div>
+                <div class="pro">
+                    <img src="uniform images/tiess1.jpg" alt="">
+                    <div class="des">
+                        <span>A-1 Uniform</span>
+                        <h5>School Tie For Uniform</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                          <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                </div>
+                    <div class="pro">
+                        <img src="uniform images/belts1.jpg" alt="">
+                        <div class="des">
+                            <span>A-1 Uniform</span>
+                            <h5>School Belt's For Uniform</h5>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                              <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                    </div>
+                    
+                        <div class="pro">
+                            <img src="uniform images/logo1.jpg" alt="">
+                            <div class="des">
+                                <span>A-1 Uniform</span>
+                                <h5>School logo's For Uniform</h5>
+                                <div class="star">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                  <h4>$78</h4>
+                            </div>
+                            <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                        </div>
+                        
+                            <div class="pro">
+                                <img src="uniform images/socks3-removebg-preview.png" alt="">
+                                <div class="des">
+                                    <span>A-1 Uniform</span>
+                                    <h5>School Sock's For Boys's & Girl's</h5>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                      <h4>$78</h4>
+                                </div>
+                                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                            </div>
+                                </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box" style="width: 45%;">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 1 Get 1 Free</h2>
+            <span>The best fabric is on sale at cara</span>
+            <button class="white">Learn More</button>
+
+        </div>
+        <div class="banner-box banner-box2" style="width: 45%;">
+            <h4>Spring/Summer</h4>
+            <h2>Up Comming Season</h2>
+            <span>The best fabric is on sale at cara</span>
+            <button class="white">Collection</button>
+
+        </div>
+        
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Summer Collection -25% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>NEW TRACK PENT'S COLLECTION</h2>
+            <h3>Spring / Summer 2022</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>T-SHIRTS</h2>
+            <h3>New Trendy Prints</h3>
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1"> 
+        <div>
+        <h4>Mail us For Newsletters</h4>
+        <p>Get E-mail Updates about our latest shop and <span>special offer</span>.
+        </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address" id="searchbox" >
+            <!-- <button onclick="navigation()"></button> -->
+            <a href="mailto:muzammiluddin577@gmail.com">
+            <button  onclick="navigation()" class="normal" style="height: 100%;">Email us</button></a>
+          
+        </div>
+        <script>
+               var email = document.getElementById("searchbox") 
+               function navigation()
+               {
+                   if(email.value=="muzammiluddin577@gmail.com")
+                   {
+                       window.location.href="muzammiluddin577@gmail.com";
+                   }
+                   else
+                   {
+                       alert("try again")
+                   }
+                   email.value="";
+
+               }
+        </script>
+    </section>   
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="uniform images/muzammil logo.png"  style="width: 100px;height: 50px;"alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Block 13 Rabia City Road, Main Guhlasatan-e-Johar</p>
+            <p><strong>Phone: </strong> 021-3456874 / 03385412369</p>
+            <p><strong>Hours: </strong> 10:00 - 10:00, Mon - Sat</p>
+            <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+
+            </div>
+        </div>
+    </div>  
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+
+    <div class="col">
+        <h4>My Accounts</h4>
+        <a href="#">Sing In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="images/pay/app.jpg" alt="">
+            <img src="images/pay/play.jpg" alt="">
+
+        </div>
+        <p>Secured Payment Gateways </p>
+        <img src="images/pay/pay.png" alt="">
+    </div>
+          <div class="copyright">
+              <p>©  2022 By  A-1 Uniform All Rights Reserved</p>
+
+          </div>
+    </footer>
+     <script src="script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="e.style.css">
+    <link href="./lib/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/document.png">
+    <title>A-1 UNIFORMS</title>
+
+</head>
+
+<style>
+
+    .menu-btn, .close-btn{
+        height: 30px;
+        width: 30px;
+        background: #f6f6f6;
+        color: #111;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+
+    }
+    .close-btn, .menu-btn{
+        display: none;
+    }
+    @media (max-width: 991px){
+        .list-mob{
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 300px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #fff;
+            z-index: 999999;
+            transition: 300ms linear;
+        }
+        .list-mob li {
+            margin: 10px 0px;
+        }
+        .menu-btn{
+            display: inline-flex;
+        }
+        .navOpened{
+            right: 0 !important;
+            transition: 300ms linear;
+        }
+        .close-btn{
+            display: inline-flex;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    }
+</style>
+
+<body>
+    <!-- NAVBAR -->
+
+
+    <section id="header">
+        <a href="index.html"><img src="uniform images/muzammil logo.png" style="width: 100px;height: 50px;"></a>
+        <div>
+        <ul id="navbar" class="list-mob"> 
+            <a href="#" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active"href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+       <a href="cart.html">  <i class="fa fa-shopping-bag"></i></a>
+    </div>
+        <a href="#" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
+    </section>
+
+    <section id="prodetails" class="section-p1"> 
+
+        <div class="singel-pro-image">
+            <img src="uniform images/sproduct_new-removebg-preview.png" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="uniform images/sprodut_02_new-removebg-preview.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="uniform images/sproduct_03_new-removebg-preview.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="uniform images/sproduct_3_new-removebg-preview (1).png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="uniform images/sproduct_04_bnew-removebg-preview.png" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="single-pro-details">
+            <h6>School / T-Shirt</h6>
+            <h4>Boy's T-Shirt</h4>
+            <h2>$139.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="Number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>
+                Cotton Coat is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of A1 Uniform.
+            
+            </span>
+        </div>
+
+    </section>
+    <section id="products1" class="section-p1" >
+        <h2>Featured Products</h2>
+        <p> Kids Summer Collection </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="uniform images/white tshirt.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Cotton White T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+            </div>
+    
+                <div class="pro">
+                    <img src="uniform images/blue tshirts.jpg"  alt="">
+                    <div class="des">
+                        <span>A-1 UNIFORM</span>
+                        <h5>Cotton Blue T-Shirts</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                          <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                </div>
+                    <div class="pro">
+                        <img src="uniform images/whitw pent.jpeg" alt="">
+                        <div class="des">
+                            <span>A-1 UNIFORM</span>
+                            <h5>Cotton White Pent</h5>
+                            <div class="star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                              <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+                    </div>
+
+            <div class="pro">
+                <img src="uniform images/blue pent.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Cotton Blue Pent</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div>
+            <h4>Sing Up For Newsletters</h4>
+            <p>Get E-mail Updates about our latest shop and <span>special offer</span>.
+            </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="uniform images/muzammil logo.png"  style="width: 100px;height: 50px;"alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Block 13 Rabia City Road, Main Guhlasatan-e-Johar</p>
+            <p><strong>Phone: </strong> 021-3456874 / 03385412369</p>
+            <p><strong>Hours: </strong> 10:00 - 10:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-pinterest-p"></i>
+                    <i class="fa fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+
+        <div class="col">
+            <h4>My Accounts</h4>
+            <a href="#">Sing In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2022 By A-1 Uniform All Rights Reserved</p>
+
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+        
+    </script>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

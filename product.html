@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="e.style.css">
+    <link href="./lib/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/document.png">
+    <title>A-1 UNIFORMS </title>
+    <style>
+
+        .menu-btn, .close-btn{
+            height: 30px;
+            width: 30px;
+            background: #f6f6f6;
+            color: #111;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+
+        }
+        .close-btn, .menu-btn{
+            display: none;
+        }
+        @media (max-width: 991px){
+            .list-mob{
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: #fff;
+                z-index: 999999;
+                transition: 300ms linear;
+            }
+            .list-mob li {
+                margin: 10px 0px;
+            }
+            .menu-btn{
+                display: inline-flex;
+            }
+            .navOpened{
+                right: 0 !important;
+                transition: 300ms linear;
+            }
+            .close-btn{
+                display: inline-flex;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+
+
+    <section id="header">
+        <a href="index.html"><img src="uniform images/muzammil logo.png" style="width: 100px;height: 50px;"></a>
+        <div>
+        <ul id="navbar" class="list-mob"> 
+            <a href="#" class="close-btn"><ion-icon name="close-outline"></ion-icon></a>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+       <a href="cart.html">  <i class="fa fa-shopping-bag"></i></a>
+    </div>
+        <a href="#" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
+    </section>
+
+    <section id="page-header">
+
+        <h2>#StayHome</h2>
+
+
+        <p><b>Save more with coupons & Up To 65% Off!</b> </p>
+
+    </section>
+
+
+    <section id="products1" class="section-p1">
+
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="uniform images/school-uniform-frock-4.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Frock's With Full Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            
+
+            <div class="pro">
+                <img src="uniform images/school froks 2.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Frock's With Full Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="uniform images/school-uniform-frock-1-removebg-preview.png" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Frock's With Full Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+                     <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+            <div class="pro">
+                <img src="images/download.jpg" alt="" style="height: 262px;">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Frock's With Full Uniform</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+
+
+            <div class="pro">
+                <img src="uniform images/pt shorts1.jpeg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School P.T Short's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="uniform images/pt shorts 2.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School P.T Short's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="uniform images/pt short bew.webp" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School P.T Short's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/shorts 00q.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School P.T Short's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+        
+          
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/new11250x250.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Track Pent's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new12.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Track Pent's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/polyester-track-pants-250x250.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Track Pent's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/images.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Track Pent's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+           
+           <!-- newwwwwwwwwww -->
+           <div class="pro-container">
+            <div class="pro">
+                <img src="images/pt.png" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Shirtss</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="uniform images/plain-color-tshits-2.jpeg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="uniform images/t__1_-removebg-preview.png" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="uniform images/nikee-removebg-preview.png" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>P.T Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+                  <!-- newwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww222222222 -->
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="images/bag1.png" alt="">
+                    <div class="des">
+                        <span>A-1 UNIFORM</span>
+                        <h5>School Bag's</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+    
+                <div class="pro">
+                    <img src="uniform images/bag2.jpg" alt="">
+                    <div class="des">
+                        <span>A-1 UNIFORM</span>
+                        <h5>School Bag's</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="uniform images/bag3-removebg-preview.png" alt="">
+                    <div class="des">
+                        <span>A-1 UNIFORM</span>
+                        <h5>School Bag's</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+    
+                <div class="pro">
+                    <img src="uniform images/school bag 5.jpg" alt="">
+                    <div class="des">
+                        <span>A-1 UNIFORM</span>
+                        <h5>School Bag's</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+           
+              <!-- done -->
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/white new01-250x250.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>White School T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/blue new02-250x250.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Blue School T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/whitenew03.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>White School T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/white 04-250x250.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>White School T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/shoes001.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Girl's School Shoes</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/shoes002_225x225.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Girl's School Shoes</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/shoes003.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/shoes004.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM </span>
+                    <h5>Boy's School Shoes</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="uniform images/belts1.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Boy's School Black Belt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="uniform images/belts 12 .jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>Boy's School Brown Belt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/tie0001-250x250.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School Tie's </h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="uniform images/tiess1.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School Tie's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="pro">
+                <img src="uniform images/logo1.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School Logo's For Girl's & Boy's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="uniform images/logo2.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School Logo's </h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/socks001-removebg-preview.png" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM</span>
+                    <h5>School Socks</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/sockst002.jpg" alt="">
+                <div class="des">
+                    <span>A-1 UNIFORM </span>
+                    <h5>School Sock's For Girl's</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="pagination"class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div>
+            <h4>Sing Up For Newsletters</h4>
+            <p>Get E-mail Updates about our latest shop and <span>special offer</span>.
+            </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="uniform images/muzammil logo.png"  style="width: 100px;height: 50px;"alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Block 13 Rabia City Road, Main Guhlasatan-e-Johar</p>
+            <p><strong>Phone: </strong> 021-3456874 / 03385412369</p>
+            <p><strong>Hours: </strong> 10:00 - 10:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+
+        <div class="col">
+            <h4>My Accounts</h4>
+            <a href="#">Sing In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2022 By A-1 Uniform All Rights Reserved</p>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
